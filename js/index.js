@@ -1,11 +1,16 @@
-// Your code goes here
+//Selector list
 const mouseOver = document.querySelector('.nav, a')
 console.log(mouseOver)
 
 const headOne = document.querySelector('.logo-heading')
 console.log(headOne)
 
+// const focus = document.createElement('div #form')
+// console.log(focus)
 
+
+
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 mouseOver.addEventListener('mouseover', function( event ) {
    event.target.style.color = 'orange'
    setTimeout(function() {
@@ -14,7 +19,7 @@ mouseOver.addEventListener('mouseover', function( event ) {
 
 }, false)
 
-
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 //1 Mouseover <h1> yellow up
 
 // console.log(headONE);
